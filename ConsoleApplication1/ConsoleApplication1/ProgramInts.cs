@@ -29,14 +29,15 @@ namespace ConsoleApplication1
 
         struct Ints
         {
-            // user age
-            public static int age;
 
+            public static int age;
+            
             public static int bMonth;
 
             public static int bDay;
 
             public static int bYear;
+
             public static int bDayLiving;
 
         }

@@ -1,0 +1,7 @@
+C:\Users\Rashaad\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+C:\Users\Rashaad\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Users\Rashaad\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Users\Rashaad\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.CodeAnalysisLog.xml
+C:\Users\Rashaad\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.lastcodeanalysissucceeded
+C:\Users\Rashaad\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\Users\Rashaad\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb

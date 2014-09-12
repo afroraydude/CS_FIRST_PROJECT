@@ -16,8 +16,8 @@ namespace ConsoleApplication1
             Strings.firstName = System.Console.ReadLine();
             System.Console.WriteLine("Enter your last name.");
             Strings.lastName = System.Console.ReadLine();
-            System.Console.Write("Your Name is " + Strings.firstName + " " + Strings.lastName + ".");
-
+            System.Console.WriteLine("Your Name is " + Strings.firstName + " " + Strings.lastName + ".");
+            Strings.fullName = Strings.firstName + " " + Strings.lastName;
         }
         
         struct Strings
@@ -28,6 +28,9 @@ namespace ConsoleApplication1
 
             // user's last name
             public static string lastName;
+
+            // user's full name
+            public static string fullName;
 
         }
 
