@@ -14,19 +14,14 @@ namespace ConsoleApplication1
         {
 
             System.Console.WriteLine("Hello, World!");
-            ProgramEnums.Days today = ProgramEnums.Days.Wednesday;
-            int dayNumber = (int)today;
-            Console.WriteLine("{0} is day number #{1}.", today, dayNumber);
-            ProgramEnums.Months thisMonth = ProgramEnums.Months.Sep;
-            byte monthNumber = (byte)thisMonth;
-            Console.WriteLine("{0} is month number #{1}.", thisMonth, monthNumber);
 
             // Program Structs
             ProgramStrings.StringsMethod();
-            Console.WriteLine("Lets open another class.");
+            Console.WriteLine(" ");
             ProgramInts.IntMethod();
 
             // So the program does not stop on its own
+            System.Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
             
             // Enter button only

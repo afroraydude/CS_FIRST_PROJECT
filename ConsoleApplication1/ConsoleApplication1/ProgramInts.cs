@@ -11,14 +11,13 @@ namespace ConsoleApplication1
 
         public static void IntMethod()
         {
- 
-            System.Console.WriteLine("Enter your age");
+            Console.WriteLine("Enter your age(as number)");
             Ints.age = Convert.ToInt32(Console.ReadLine());
 
-            System.Console.WriteLine("Enter your birth month.");
+            System.Console.WriteLine("Enter your birth month (as a number).");
             Ints.bMonth = Convert.ToInt32(Console.ReadLine());
 
-            System.Console.WriteLine("Enter your birth day (not year or month).");
+            Console.WriteLine("Enter your birth day (not year or month).");
             Ints.bDay = Convert.ToInt32(Console.ReadLine());
             
             DateTime dt = DateTime.Now;
@@ -38,6 +37,7 @@ namespace ConsoleApplication1
             public static int bDay;
 
             public static int bYear;
+            public static int bDayLiving;
 
         }
 
