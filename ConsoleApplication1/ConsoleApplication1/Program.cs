@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using System.Web.Services.Description;
 
 namespace ConsoleApplication1
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            
+
             System.Console.WriteLine("Hello, World!");
             ProgramEnums.Days today = ProgramEnums.Days.Wednesday;
             int dayNumber = (int)today;
@@ -19,13 +20,12 @@ namespace ConsoleApplication1
             ProgramEnums.Months thisMonth = ProgramEnums.Months.Sep;
             byte monthNumber = (byte)thisMonth;
             Console.WriteLine("{0} is month number #{1}.", thisMonth, monthNumber);
-            System.Console.WriteLine("Enter your first name.");
-            ProgramStructs.Names.firstName = System.Console.ReadLine();
-            System.Console.WriteLine("Enter your last name.");
-            ProgramStructs.Names.lastName = System.Console.ReadLine();
-            System.Console.Write("Your Name is " + ProgramStructs.Names.firstName + " " + ProgramStructs.Names.lastName);
 
-            
+            // Program Structs
+            ProgramStrings.StringsMethod();
+            Console.WriteLine("Lets open another class.");
+            ProgramInts.IntMethod();
+
             // So the program does not stop on its own
             Console.ReadKey();
             
