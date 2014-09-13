@@ -9,12 +9,12 @@ namespace ConsoleApplication1
         public static int Months;
         public static int Days;
 
-        public static Age(DateTime Bday)
+        public Age(DateTime Bday)
         {
             Count(Bday);
         }
 
-        public static Age(DateTime Bday, DateTime Cday)
+        public Age(DateTime Bday, DateTime Cday)
         {
             Count(Bday, Cday);
         }
