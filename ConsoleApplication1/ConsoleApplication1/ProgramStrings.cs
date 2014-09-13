@@ -10,6 +10,9 @@ namespace ConsoleApplication1
     class ProgramStrings
     {
         // Code to execute
+        /// <summary>
+        /// All code not in Strings goes here
+        /// </summary>
         public static void StringsMethod()
         {
             System.Console.WriteLine("Enter your first name.");
@@ -23,13 +26,19 @@ namespace ConsoleApplication1
         struct Strings
         {
 
-            // user's first name
+            /// <summary>
+            /// User's first name
+            /// </summary>
             public static string firstName; 
 
-            // user's last name
+            /// <summary>
+            /// User's last name
+            /// </summary>
             public static string lastName;
 
-            // user's full name
+            /// <summary>
+            /// User's last name
+            /// </summary>
             public static string fullName;
 
         }

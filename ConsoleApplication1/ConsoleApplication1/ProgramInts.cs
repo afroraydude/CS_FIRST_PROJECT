@@ -9,6 +9,9 @@ namespace ConsoleApplication1
     class ProgramInts
     {
 
+        /// <summary>
+        /// All code not in Ints goes here.
+        /// </summary>
         public static void IntMethod()
         {
             Console.WriteLine("Enter your age(as number)");
@@ -22,145 +25,202 @@ namespace ConsoleApplication1
             
             DateTime dt = DateTime.Now;
 
-            Ints.bYear = dt.Year - Ints.age;
+            Ints.bYear = Ints.curYear - Ints.age;
 
             Console.WriteLine("Your age is " + Ints.age + " and you were born on/around " + Ints.bMonth + "/" + Ints.bDay + "/" + Ints.bYear);
 
-            Ints.bMonthFeb = (Ints.bMonth / 2 == 1);
-            if (Ints.bMonthFeb)
+            Ints.Years = Ints.curYear - Ints.bYear - 1; 
+            
+            Ints.YearDay = Ints.Years * 365;
+
+            // Bacically calculates age in days
+
+            Ints.bMonthNov = (dt.Month / 11 == 1);
+            Ints.bMonthDec = (dt.Month / 12 == 1);
+            Ints.bMonthOct = (dt.Month / 10 == 1);
+            Ints.bMonthSep = (dt.Month / 9 == 1);
+            Ints.bMonthAug = (dt.Month / 8 == 1);
+            Ints.bMonthJul = (dt.Month / 7 == 1);
+            Ints.bMonthJun = (dt.Month / 6 == 1);
+            Ints.bMonthMay = (dt.Month / 5 == 1);
+            Ints.bMonthApr = (dt.Month / 4 == 1);
+            Ints.bMonthMar = (dt.Month / 3 == 1);
+            Ints.bMonthJan = (dt.Month / 1 == 1);
+            Ints.bMonthFeb = (dt.Month / 2 == 1);
+            
+            if(Ints.bMonthFeb)
             {
-                Ints.MonthDay = 28;
+                Ints.curMonthDay = 28;
+                Ints.bDayLiving = Ints.YearDay + 59;
             }
             else
             {
-                return;
+               
             }
 
-            Ints.bMonthJan = (Ints.bMonth / 1 == 1);
             if (Ints.bMonthJan)
             {
-                Ints.MonthDay = 31;
+                Ints.curMonthDay = 31;
+                Ints.bDayLiving = Ints.YearDay + 31;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthMar = (Ints.bMonth / 3 == 1);
             if (Ints.bMonthMar)
             {
-                Ints.MonthDay = 31;
+                Ints.curMonthDay = 31;
+                Ints.bDayLiving = Ints.YearDay + 90;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthApr = (Ints.bMonth / 5 == 1);
             if (Ints.bMonthApr)
             {
-                Ints.MonthDay = 30;
+                Ints.curMonthDay = 30;
+                Ints.bDayLiving = Ints.YearDay + 120;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthMay = (Ints.bMonth / 5 == 1);
             if (Ints.bMonthMay)
             {
-                Ints.MonthDay = 31;
+                Ints.curMonthDay = 31;
+                Ints.bDayLiving = Ints.YearDay + 151;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthJun = (Ints.bMonth / 6 == 1);
             if (Ints.bMonthJun)
             {
-                Ints.MonthDay = 30;
+                Ints.curMonthDay = 30;
+                Ints.bDayLiving = Ints.YearDay + 181;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthJul = (Ints.bMonth / 7 == 1);
             if (Ints.bMonthJul)
             {
-                Ints.MonthDay = 31;
+                Ints.curMonthDay = 31;
+                Ints.bDayLiving = Ints.YearDay + 212;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthAug = (Ints.bMonth / 8 == 1);
             if (Ints.bMonthAug)
             {
-                Ints.MonthDay = 31;
+                Ints.curMonthDay = 31;
+                Ints.bDayLiving = Ints.YearDay + 243;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthSep = (Ints.bMonth / 9 == 1);
             if (Ints.bMonthSep)
             {
-                Ints.MonthDay = 30;
+                Ints.curMonthDay = 30;
+                Ints.bDayLiving = Ints.YearDay + 273;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthOct = (Ints.bMonth / 10 == 1);
             if (Ints.bMonthOct)
             {
-                Ints.MonthDay = 31;
+                Ints.curMonthDay = 31;
+                Ints.bDayLiving = Ints.YearDay + 304;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthNov = (Ints.bMonth / 11 == 1);
             if (Ints.bMonthNov)
             {
-                Ints.MonthDay = 30;
+                Ints.curMonthDay = 30;
+                Ints.bDayLiving = Ints.YearDay + 334;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.bMonthDec = (Ints.bMonth / 12 == 1);
             if (Ints.bMonthDec)
             {
-                Ints.MonthDay = 31;
+                Ints.curMonthDay = 31;
+                Ints.bDayLiving = Ints.YearDay + 365;
             }
             else
             {
-                return;
+                
             }
 
-            Ints.daysBeforeBirth = Ints.MonthDay - Ints.bDay;
-
+            
+            
         }
 
-        struct Ints
+        public struct Ints
         {
 
+            /// <summary>
+            /// User's age
+            /// </summary>
             public static int age;
+            /// <summary>
+            /// Birth Month
+            /// </summary>
             public static int bMonth;
+            /// <summary>
+            /// User's birth day
+            /// </summary>
             public static int bDay;
+            /// <summary>
+            /// Birth Year (calculated)
+            /// </summary>
             public static int bYear;
+            /// <summary>
+            /// I really don't know what this is
+            /// </summary>
             public static int MonthDay;
+            /// <summary>
+            /// User's days living, minus leap days, plus days in month after birth day in current year, plus days before birth date.
+            /// </summary>
             public static int bDayLiving;
+            /// <summary>
+            /// Days before birth
+            /// </summary>
             public static int daysBeforeBirth;
-
+            /// <summary>
+            /// Current Month in days
+            /// </summary>
+            public static int curMonthDay;
+            /// <summary>
+            /// curYear - bYear
+            /// </summary>
+            public static int Years;
+            /// <summary>
+            /// Current Year
+            /// </summary>
+            public static int curYear;
+            /// <summary>
+            /// The year in days
+            /// </summary>
+            public static int YearDay;
+            
+            // TODO: Move to new ProgramBools.cs file
             public static bool bMonthJan = true;
             public static bool bMonthFeb = true;
             public static bool bMonthMar = true;
@@ -173,7 +233,15 @@ namespace ConsoleApplication1
             public static bool bMonthOct = true;
             public static bool bMonthNov = true;
             public static bool bMonthDec = true;
-
+            /// <summary>
+            /// Days before today
+            /// </summary>
+            public static int DaysBeforeToday;
+            /// <summary>
+            /// What is this?
+            /// </summary>
+            public static bool MonthDaysToday;
+            
         }
 
     }
