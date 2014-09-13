@@ -73,6 +73,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Age.cs" />
     <Compile Include="ProgramInts.cs" />
     <Compile Include="ProgramStrings.cs" />
     <Compile Include="Program.cs" />

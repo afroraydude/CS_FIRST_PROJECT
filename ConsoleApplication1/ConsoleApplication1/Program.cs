@@ -25,7 +25,8 @@ namespace ConsoleApplication1
             // Program Structs
             ProgramStrings.StringsMethod();
             Console.WriteLine(" ");
-            ProgramInts.IntMethod();
+            //ProgramInts.IntMethod();
+            
             Thread.Sleep(1000);
             Console.WriteLine("And you have been alive for about " + ProgramInts.Ints.bDayLiving + " days total.");
 
